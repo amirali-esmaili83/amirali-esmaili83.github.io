@@ -54,9 +54,7 @@ about_content: |
   Experienced in building web applications and REST APIs, with a strong interest in software engineering and backend systems.
 
   Currently expanding my knowledge in Artificial Intelligence and Data Science alongside backend development.
-
 content:
-  
   - title: Education
     layout: list
     content:
@@ -93,7 +91,6 @@ content:
            Designed a multi-user task management system with full CRUD functionality and strict data isolation using Django REST Framework.
 
            Integrated Celery for scheduled background task execution, Redis for caching and message brokering, and Docker for containerized deployment with PostgreSQL and Nginx.
-  
   - title: Technologies
     layout: list
     content:
@@ -104,25 +101,20 @@ content:
             Python, Javascript, SQL
 
       - layout: left
-        title: Frameworks
+        title: Frameworks & Tools
         description: |
-              Django, Django REST Framework
-
-      - layout: left
-        title: Tools & Infrastructure
-        description: |
-          Docker, Git, Linux
+              Django, Django REST Framework, Docker, Git, Linux
 
   - title: Certificates & Education
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         border: weak
         title: Advanced Django Course
         sub_title: Maktabkhooneh
         link: https://maktabkhooneh.org/certificates/mk-s1wt9n/
 
-      - layout: top-middle
+      - layout: left
         title: Front-End
         sub_title: Quera
         link: https://quera.org/certificate/3xyYyRvT
@@ -134,7 +126,7 @@ content:
             border: weak
             title: English
             description: A2 (basic reading of technical documentation)
-            
+
           - layout: left
             title: Persian
             description: Native
