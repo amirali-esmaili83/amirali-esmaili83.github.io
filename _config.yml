@@ -22,7 +22,7 @@ github_username: amirali-esmaili83
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: https://www.linkedin.com/in/amirali-esmaili-6851512b9/
+linkedin_username: linkedin.com/in/amirali-esmaili-6851512b9
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -54,6 +54,7 @@ about_content: |
   Experienced in building web applications and REST APIs, with a strong interest in software engineering and backend systems.
 
   Currently expanding my knowledge in Artificial Intelligence and Data Science alongside backend development.
+
 content:
   - title: Education
     layout: list
@@ -62,35 +63,23 @@ content:
         title: University of Science and Culture
         sub_title: B.Sc in Computer Engineering
         caption: 2023 - Present
-        # description: |  this will include new lines to allow paragraphs
-  # - title: Experience
-    # layout: list
-    # content:
-    #   - layout: right
-    #     title: Company name
-    #     sub_title: Job title
-    #     caption: Date Range (eg. November 2016 - present)
-    #     link: Link to company (optional)
-    #     quote: >
-    #       Short description of the company (optional)
-        # description: |  this will include new lines to allow paragraphs
-          # Description of role
+        
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        border: weak  
         title: ToDo App (Django REST)
         link: https://github.com/Amirali-Esmaeli/ToDo-App
         link_text: Project Repository
         description: | # this will include new lines to allow paragraphs
-           Developed a Django-based task management system with separate applications for user authentication and task handling.
+          Developed a Django-based task management system with separate applications for user authentication and task handling.
 
-           Implemented a custom user model with email-based authentication and secure JWT/Token-based authentication system for login, registration, password management, and account verification.
+          Implemented a custom user model with email-based authentication and secure JWT/Token-based authentication system for login, registration, password management, and account verification.
 
-           Designed a multi-user task management system with full CRUD functionality and strict data isolation using Django REST Framework.
+          Designed a multi-user task management system with full CRUD functionality and strict data isolation using Django REST Framework.
 
-           Integrated Celery for scheduled background task execution, Redis for caching and message brokering, and Docker for containerized deployment with PostgreSQL and Nginx.
+          Integrated Celery for scheduled background task execution, Redis for caching and message brokering, and Docker for containerized deployment with PostgreSQL and Nginx.
+
   - title: Technologies
     layout: list
     content:
@@ -99,37 +88,34 @@ content:
         title: Languages
         description: |
             Python, Javascript, SQL
-
       - layout: left
         title: Frameworks & Tools
         description: |
-              Django, Django REST Framework, Docker, Git, Linux
+            Django, Django REST Framework, Docker, Git, Linux
 
   - title: Certificates & Education
     layout: list
     content:
-      - layout: left
-        border: weak
-        title: Advanced Django Course
-        sub_title: Maktabkhooneh
-        link: https://maktabkhooneh.org/certificates/mk-s1wt9n/
-
-      - layout: left
-        title: Front-End
-        sub_title: Quera
-        link: https://quera.org/certificate/3xyYyRvT
+        - layout: left
+          border: weak
+          title: Advanced Django
+          sub_title: Maktabkhooneh
+          link: https://maktabkhooneh.org/certificates/mk-s1wt9n/
+        - layout: left
+          title: Front-End
+          sub_title: Quera
+          link: https://quera.org/certificate/3xyYyRvT
   
   - title: Language Skills
     layout: list
     content:
-          - layout: left
-            border: weak
-            title: English
-            description: A2 (basic reading of technical documentation)
-
-          - layout: left
-            title: Persian
-            description: Native
+        - layout: left
+          border: weak
+          title: English
+          description: Limited working proficiency
+        - layout: left
+          title: Persian
+          description: Native
   
 # Footer
 footer_show_references: true
@@ -158,3 +144,17 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+
+# description: |  this will include new lines to allow paragraphs
+  # - title: Experience
+    # layout: list
+    # content:
+    #   - layout: right
+    #     title: Company name
+    #     sub_title: Job title
+    #     caption: Date Range (eg. November 2016 - present)
+    #     link: Link to company (optional)
+    #     quote: >
+    #       Short description of the company (optional)
+        # description: |  this will include new lines to allow paragraphs
+          # Description of role
