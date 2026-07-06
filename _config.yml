@@ -63,6 +63,20 @@ content:
         title: University of Science and Culture
         sub_title: B.Sc in Computer Engineering
         caption: 2023 - Present
+
+  # description: |  this will include new lines to allow paragraphs
+  # - title: Experience
+    # layout: list
+    # content:
+    #   - layout: right
+    #     title: Company name
+    #     sub_title: Job title
+    #     caption: Date Range (eg. November 2016 - present)
+    #     link: Link to company (optional)
+    #     quote: >
+    #       Short description of the company (optional)
+        # description: |  this will include new lines to allow paragraphs
+          # Description of role
         
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -145,16 +159,3 @@ exclude : [
   "docker-compose.yml",
   ]
 
-# description: |  this will include new lines to allow paragraphs
-  # - title: Experience
-    # layout: list
-    # content:
-    #   - layout: right
-    #     title: Company name
-    #     sub_title: Job title
-    #     caption: Date Range (eg. November 2016 - present)
-    #     link: Link to company (optional)
-    #     quote: >
-    #       Short description of the company (optional)
-        # description: |  this will include new lines to allow paragraphs
-          # Description of role
