@@ -66,6 +66,7 @@ content:
 
   # description: |  this will include new lines to allow paragraphs
   # - title: Experience
+  
     # layout: list
     # content:
     #   - layout: right
@@ -157,6 +158,6 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  
+
   ]
 
