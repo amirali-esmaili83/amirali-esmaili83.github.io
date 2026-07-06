@@ -46,7 +46,7 @@ linkedin_username: amirali-esmaili-6851512b9
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/Profile.jpg
+about_profile_image: images/profile.jpg
 
 about_content: | 
   Computer Engineering student at the University of Science and Culture with a focus on backend development using Python and Django.
