@@ -47,7 +47,8 @@ linkedin_username: https://www.linkedin.com/in/amirali-esmaili-6851512b9/
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+
+about_content: | 
   Computer Engineering student at the University of Science and Culture with a focus on backend development using Python and Django.
 
   Experienced in building web applications and REST APIs, with a strong interest in software engineering and backend systems.
@@ -55,15 +56,15 @@ about_content: | # this will include new lines to allow paragraphs
   Currently expanding my knowledge in Artificial Intelligence and Data Science alongside backend development.
 
 content:
+  
   - title: Education
     layout: list
     content:
-      - layout: middle
+      - layout: top-middle
         title: University of Science and Culture
         sub_title: B.Sc in Computer Engineering
         caption: 2023 - Present
         # description: |  this will include new lines to allow paragraphs
-          # Description of qualification
   # - title: Experience
     # layout: list
     # content:
@@ -84,8 +85,6 @@ content:
         title: ToDo App (Django REST)
         link: https://github.com/Amirali-Esmaeli/ToDo-App
         link_text: Project Repository
-        quote: >
-          A modular task management system with authentication and RESTful APIs.
         description: | # this will include new lines to allow paragraphs
            Developed a Django-based task management system with separate applications for user authentication and task handling.
 
@@ -98,19 +97,35 @@ content:
   - title: Technologies
     layout: list
     content:
-        - layout: left
-          border: weak
-          title: Languages
-          description: |
-              Python, Javascript, SQL
-        - layout: left
-          title: Frameworks
-          description: |
-                Django, Django REST Framework
-        - layout: left
-          title: Tools & Infrastructure
-          description: |
-            Docker, Git, Linux
+      - layout: left
+        border: weak
+        title: Languages
+        description: |
+            Python, Javascript, SQL
+
+      - layout: left
+        title: Frameworks
+        description: |
+              Django, Django REST Framework
+
+      - layout: left
+        title: Tools & Infrastructure
+        description: |
+          Docker, Git, Linux
+
+  - title: Certificates & Education
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title: Advanced Django Course
+        sub_title: Maktabkhooneh
+        link: https://maktabkhooneh.org/certificates/mk-s1wt9n/
+
+      - layout: top-middle
+        title: Front-End
+        sub_title: Quera
+        link: https://quera.org/certificate/3xyYyRvT
   
   - title: Language Skills
     layout: list
@@ -119,27 +134,10 @@ content:
             border: weak
             title: English
             description: A2 (basic reading of technical documentation)
+            
           - layout: left
             title: Persian
             description: Native
-
-  - title: Certificates & Education
-    layout: list
-    content:
-    - layout: left
-      border: weak
-      title: Advanced Django Course
-      sub_title: Maktabkhooneh
-      link: https://maktabkhooneh.org/certificates/mk-s1wt9n/
-
-    - layout: left
-      title: Front-End
-      sub_title: Quera
-      link: https://quera.org/certificate/3xyYyRvT
-
-    - layout: left
-      title: B.Sc. Computer Engineering
-      sub_title: University of Science and Culture
   
 # Footer
 footer_show_references: true
