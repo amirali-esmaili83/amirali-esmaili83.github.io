@@ -108,7 +108,7 @@ content:
         description: |
             Django, Django REST Framework, Docker, Git, Linux
 
-  - title: Certificates & Education
+  - title: Certificates
     layout: list
     content:
         - layout: left
